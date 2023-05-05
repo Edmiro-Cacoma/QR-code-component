@@ -1,5 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
 
+.card {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
 
+.card .image {
+    display: flex;
+    justify-content: center;
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    img {
+        max-width: 90%;
+        border-radius: 15px;
+        margin: 10px;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height:1.2;
+    
+
+    h3 {
+         color: hsl(218, 44%, 22%);
+        font-weight: 700;
+    }
+
+    p {
+       
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+    }
+}
+
+.attribution {
+    margin: 30px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
